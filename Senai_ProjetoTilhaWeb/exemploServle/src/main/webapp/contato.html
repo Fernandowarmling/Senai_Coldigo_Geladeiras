@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="css/site.css">
+<script src="js/site.js"></script>
+ <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    </header>
+    <nav>       
+    </nav>
+    <section>
+<form action="insereContato" name="frmfaleconosco" method="get" class="faleConosco" onsubmit="return validaFaleConosco()"> 
+        <fieldset class="faleConosco">
+            <legend>Contato</legend>
+            <label for="name">Nome</label>
+            <input type="text" name="txtname" id="name">
+            <label for="adress">Endereço</label>
+            <input type="text" name="txtadress" id="adress">
+            <label for="phone">Telefone</label>
+            <input type="text" name="txtphone" id="phone">
+        <button type="submit">Enviar</button><button type="reset" onclick="verificaMotivo(null)">Limpar</button>
+        </fieldset>
+    </form>
+</section>
+    <footer></footer>
+</body>
+</html>
