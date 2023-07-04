@@ -1,9 +1,0 @@
-<a href="/ProjetoTrilhaWeb/src/webapp/index.html">
-    <div class="opcao">Inicio</div>
-</a>
-<a href="/ProjetoTrilhaWeb/WebContent/pages/site/produtos.html">
-    <div class="opcao">Produtos</div>
-</a>
-<a href="/ProjetoTrilhaWeb/WebContent/pages/site/faleconosco.html">
-    <div class="opcao">Fale Conosco</div>
-</a>
